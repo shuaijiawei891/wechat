@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.wechat">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".sousuoActivity"></activity>
+        <activity android:name=".xiaochengxuActivity" />
+        <activity android:name=".gameActivity" />
+        <activity android:name=".gouwuActivity" />
+        <activity android:name=".fujinrenActivity" />
+        <activity android:name=".kanyikanActivity" />
+        <activity android:name=".souyisouActivity" />
+        <activity android:name=".yaoyiyaoActivity" />
+        <activity android:name=".saoyisaoActivity" />
+        <activity android:name=".pengyouquanActivity" />
+        <activity android:name=".shezhiActivity" />
+        <activity android:name=".biaoqingActivity" />
+        <activity android:name=".kabaoActivity" />
+        <activity android:name=".xiangceActivity" />
+        <activity android:name=".soucangActivity" />
+        <activity android:name=".xiaoxiActivity" />
+        <activity android:name=".zhifuActivity" />
+        <activity android:name=".meActivity" />
+        <activity android:name=".faxianActivity" />
+        <activity android:name=".lianxirenActivity" />
+        <activity android:name=".Main3Activity" />
+        <activity android:name=".Main2Activity" />
+        <activity android:name=".newsviewActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp">
+    <ImageView
+        android:id="@+id/images1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"/>
+    <TextView
+        android:id="@+id/name1"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_toRightOf="@id/images1"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="25dp"
+        android:text="新的朋友"
+        android:textSize="20sp"
+
+        android:fontFamily="sans-serif-black"
+        />
+
+</RelativeLayout>
+</LinearLayout>

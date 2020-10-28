@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="30dp"
+        android:text="手机号登录"
+        android:fontFamily="sans-serif-black"
+        android:textSize="30sp"
+        />
+    <EditText
+        android:id="@+id/et1_1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+
+        android:textSize="20sp"
+        android:textColor="#802596"
+        android:hint="手机号"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:inputType="number"
+        android:maxLines="1"/>
+    <EditText
+        android:id="@+id/et1_2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="20sp"
+        android:textColor="#802596"
+        android:hint="密码"
+        android:inputType="textPassword"
+        android:paddingLeft="10dp"
+        android:layout_below="@id/et1_1"
+
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:maxLines="1"/>
+    <TextView
+        android:id="@+id/qiehuan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:layout_marginLeft="20dp"
+        android:textColor="#5B39E9"
+        android:background="#F7F7F7"
+        android:text="用短信验证码登录"/>
+    <Button
+        android:id="@+id/denglu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:text="登录"
+        android:textSize="25dp"
+        android:background="@drawable/btn_1"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="255dp"
+            android:layout_marginLeft="50dp"
+            android:text="找回密码"
+            android:textColor="#5B39E9"
+            android:background="@null"
+
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="255dp"
+
+            android:text="紧急冻结"
+            android:textColor="#5B39E9"
+            android:background="@null"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="255dp"
+
+            android:text="微信安全中心"
+            android:textColor="#5B39E9"
+            android:background="@null"
+            />
+    </LinearLayout>
+
+
+</LinearLayout>

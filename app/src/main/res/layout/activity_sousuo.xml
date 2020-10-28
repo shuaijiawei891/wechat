@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".sousuoActivity"
+    android:background="#E6E6E6">
+
+    <RelativeLayout
+        android:id="@+id/souss"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/sousuo"
+            android:layout_width="300dp"
+            android:layout_height="55dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20sp"
+
+            android:textSize="20sp"
+            android:textColor="#802596"
+            android:hint="搜索"
+            android:paddingLeft="10dp"
+            android:maxLines="1"
+           />
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_toRightOf="@+id/sousuo"
+            android:layout_marginTop="20sp"
+            android:layout_marginLeft="10dp"
+            android:background="@null"
+            android:text="取消"
+            android:textSize="20sp"
+            android:textColor="#802596"
+           />
+    </RelativeLayout>
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_below="@id/souss">
+    <TextView
+        android:id="@+id/tis"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="40dp"
+        android:text="搜索指定内容"
+        android:gravity="center"/>
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/tis"
+        android:layout_marginTop="20sp">
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@null"
+        android:text="朋友圈"
+        />
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@null"
+        android:text="文章"
+        />
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@null"
+        android:text="公众号"
+        />
+
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tis"
+        android:layout_marginTop="70dp">
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@null"
+            android:text="小程序"
+            />
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@null"
+            android:text="音乐"
+            />
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@null"
+            android:text="表情"
+            />
+
+    </LinearLayout>
+</RelativeLayout>
+</RelativeLayout>

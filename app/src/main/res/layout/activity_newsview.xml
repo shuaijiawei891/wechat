@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".newsviewActivity"
+    android:background="#E6E6E6">
+<TextView
+    android:id="@+id/texttl"
+    android:layout_width="100dp"
+    android:layout_height="50dp"
+    android:text="微信"
+    android:textSize="30sp"
+    android:padding="5dp"
+    android:layout_marginTop="18dp">
+</TextView>
+    <TextView
+        android:id="@+id/textss"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/sousuo"
+        android:textSize="30sp"
+        android:padding="5dp"
+        android:layout_toRightOf="@id/texttl"
+        android:layout_marginLeft="170dp"
+        android:layout_marginTop="20dp"
+
+        android:layout_marginBottom="20dp"
+        />
+    <Spinner
+        android:id="@+id/texttj"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/tianjia"
+        android:textSize="30sp"
+        android:padding="5dp"
+        android:layout_margin="20dp"
+        android:layout_toRightOf="@id/textss"
+        android:entries="@array/spingarr"
+        android:spinnerMode="dropdown"
+        android:dropDownWidth="200dp"
+        />
+
+    <RelativeLayout
+        android:id="@+id/xiaoxi"
+        android:layout_width="match_parent"
+        android:layout_height="530dp"
+        android:layout_below="@id/textss"
+        android:layout_marginTop="5dp"
+        android:background="#F7F7F7"
+        >
+
+        <ListView
+            android:id="@+id/liebiao"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </ListView>
+    </RelativeLayout>
+
+<RadioGroup
+    android:id="@+id/dibu"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:layout_below="@id/xiaoxi"
+    android:orientation="horizontal"
+    android:background="#E6E6E6"
+    android:layout_marginTop="10dp">
+    <RadioButton
+        android:id="@+id/dibu1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:button="@null"
+        android:layout_marginLeft="15dp"
+android:layout_weight="1"
+        android:background="@drawable/radiobutton_1"
+        android:checked="true"
+        >
+
+    </RadioButton>
+
+    <RadioButton
+        android:id="@+id/dibu2"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:button="@null"
+        android:layout_weight="1"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@id/dibu1"
+
+        android:background="@drawable/radiobutton_2"
+
+
+        />
+    <RadioButton
+        android:id="@+id/dibu3"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:button="@null"
+        android:layout_weight="1"
+        android:layout_toRightOf="@id/dibu2"
+        android:background="@drawable/radiobutton_3"
+        android:layout_marginLeft="20dp"
+
+        />
+    <RadioButton
+        android:id="@+id/dibu4"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:button="@null"
+        android:layout_weight="1"
+        android:layout_toRightOf="@id/dibu3"
+        android:background="@drawable/radiobutton_4"
+        android:layout_marginLeft="20dp"
+
+        />
+
+</RadioGroup>
+
+</RelativeLayout>
